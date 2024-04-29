@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>This is a test page</h1>
+    <p>Today's date is: <span id="date"></span></p>
+
+    <script>
+        // JavaScript code to display today's date
+        var today = new Date();
+        var dateElement = document.getElementById("date");
+        dateElement.textContent = today.toDateString();
+    </script>
+</body>
+</html>
